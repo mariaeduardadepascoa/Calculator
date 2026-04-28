@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora -> HTML, CSS e JavaScript</title>
+</head>
+
+<body>
+    <section class="header">CALCULATOR</section>
+    <main>
+        <div id="calculator">
+            <div class="display">0</div>
+            
+            <div class="buttons">
+                <div class="clear-all" id="deletar-tudo" data-operacao="ca">CA</div>
+                <div class="options" id="dividir" data-operacao="/">/</div>
+                <div class="options" id="vezes" data-operacao="*">X</div>
+                <div class="options" id="apagar" data-operacao=""><img src="images/backspace_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="delete icon" id="imgApagar"></div>
+
+
+                <div class="numbers" data-valor="0">0</div>
+                <div class="numbers" data-valor="1">1</div>
+                <div class="numbers "data-valor="2">2</div>
+                <div class="options" id="mais" data-operacao="+">+</div>
+
+
+                <div class="numbers" data-valor="3">3</div>
+                <div class="numbers" data-valor="4">4</div>
+                <div class="numbers" data-valor="5">5</div>
+                <div class="options" id="menos" data-operacao="-">-</div>
+
+                <div class="numbers" data-valor="6">6</div>
+                <div class="numbers" data-valor="7">7</div>
+                <div class="numbers" data-valor="8">8</div>
+                <div class="options" id="ver-resultado">=</div>
+                
+                <div class="numbers" data-valor="9">9</div>
+                <div class="options" id="ponto" data-operacao=".">.</div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+
+</html>
