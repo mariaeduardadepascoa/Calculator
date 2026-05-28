@@ -22,5 +22,7 @@ git clone https://github.com/mariaeduardadepascoa/Calculator
 ## Para fazer:
 - Adicionar histórico de operações realizadas
 - Arrumar o erro de "NaN" na divisão por 0
+- Arrumar erro da calculadora (colocar largura fixa)
 - Explorar novas funcionalidades como porcentagem e raiz quadrada
 - Arrumar o erro de quando o usuário apagar todos os números o 0 volte a aparecer
+- Colocar toFixed
