@@ -1,28 +1,39 @@
 # Calculator
-#### Uma calculadora simples desenvolvida em javascript e com estilização em CSS Grid Layout, criada como parte dos meus estudos de lógica e estilização front-end.
 
-## Funcionalidades
-- Operações básicas: adição, subtração, multiplicação e divisão
-- Interface responsiva utilizando CSS Grid
+A simple calculator built with JavaScript and styled using CSS Grid Layout. Created as part of my studies in programming logic and front-end development.
 
-## Tecnologias
-- HTML5: estrutura da aplicação
-- CSS3: estilização e organização dos elementos
-- JavaScript: lógica de funcionamento da calculadora
+## Features
 
-## Como Executar
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Responsive interface built with CSS Grid
 
-1. Clone esse repositório:
-```bash
-git clone https://github.com/mariaeduardadepascoa/Calculator
-```
+## Technologies
 
-2. Abra o index.html no navegador.
+- **HTML5:** application structure
+- **CSS3:** styling and layout
+- **JavaScript:** calculator logic and functionality
 
-## Para fazer:
-- Adicionar histórico de operações realizadas
-- Arrumar o erro de "NaN" na divisão por 0
-- Arrumar erro da calculadora (colocar largura fixa)
-- Explorar novas funcionalidades como porcentagem e raiz quadrada
-- Arrumar o erro de quando o usuário apagar todos os números o 0 volte a aparecer
-- Colocar toFixed
+## Getting Started
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/mariaeduardadepascoa/Calculator.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Calculator
+   ```
+
+3. Open `index.html` in your browser.
+
+## Planned Improvements
+
+- Add a calculation history
+- Handle division by zero with an appropriate error message
+- Fix layout issues by setting a consistent calculator width
+- Add operations such as percentages and square roots
+- Restore `0` on the display when all digits are deleted
+- Format decimal results using `toFixed()`
