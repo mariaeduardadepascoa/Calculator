@@ -69,13 +69,3 @@ opUser.forEach(element => { //para as operacoes
         
     });
 });
-
-function mostrarResultado() {
-
-}
-
-
-// PONTOS PARA ADICIONAR (miguelzito lindo me ajudou): 
-// - se o usuário apertar em "+" mas depois apertar no botão de apagar ele tem q apagar apenas o operador e n o número q ta entes dele
-// - função que percorre o array e vai traduzindo: "+" = +, "X" = *, etc.
-// - duplicar esse projeto e fazer um com biblioteca mathjs e outro com eval
