@@ -32,8 +32,3 @@ A simple calculator built with JavaScript and styled using CSS Grid Layout. Crea
 ## Planned Improvements
 
 - Add a calculation history
-- Handle division by zero with an appropriate error message
-- Fix layout issues by setting a consistent calculator width
-- Add operations such as percentages and square roots
-- Restore `0` on the display when all digits are deleted
-- Format decimal results using `toFixed()`
